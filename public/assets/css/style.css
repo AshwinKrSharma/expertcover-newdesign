@@ -1,0 +1,1069 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,500;1,600;1,700;1,800;1,900;1,1000&family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{padding:0;margin:0;}
+ul{list-style:none}
+a{text-decoration:none;outline:none}
+body a:hover,body a:focus{color:initial;text-decoration:none}
+a:focus{outline:none;text-decoration:none}
+textarea:focus{outline:none}
+select:focus{outline:none;}
+input{outline:none!important}
+button,button:focus{outline:none}
+a img{border:none}
+img{border:0}
+p{padding:0;margin:0}
+h1,h2,h3,h4,ul,p{padding:0;margin:0}
+textarea{resize:none}
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color:#fff}
+input:-moz-placeholder,textarea:-moz-placeholder{color:#fff}
+input:-webkit-autofill{border:1px solid #e4e4e5;-webkit-text-fill-color:rgba(49,50,51,1);-webkit-box-shadow:0 0 0px 1000px #f5f5f6 inset;transition:background-color 5000s ease-in-out 0s;}
+input:-internal-autofill-selected{background-color:#fff!important;-webkit-box-shadow:0 0 0px 1000px #fff inset;}
+input:-webkit-autofill:hover,input:-webkit-autofill:focus{border:1px solid #e4e4e5;-webkit-text-fill-color:rgba(49,50,51,1);-webkit-box-shadow:0 0 0px 1000px #f5f5f6 inset;transition:background-color 5000s ease-in-out 0s;}
+input::-moz-placeholder{opacity:1;outline:none}
+textarea::-moz-placeholder{opacity:1;outline:none}
+.clr{clear:both;height:0}
+ul{padding:0;list-style:none}
+a{text-decoration:none;-moz-transition:all .2s;-webkit-transition:all .2s;transition:all .2s}
+a:hover{text-decoration:none;-moz-transition:all .2s;-webkit-transition:all .2s;transition:all .2s}
+
+/*a.logo{margin-top:12px;}*/
+nav.navbar.navbar-expand-lg{background-color:transparent!important;padding:0;}
+.welcomesec{background:linear-gradient(180deg,#F9FEFF 0%,#D8FAFF 100%);margin-top:-94px;min-height:570px;display:flex;align-items:center;align-content:center;padding:60px 0 0;}
+.welcomesec .col-md-12{display:flex;align-items:center;align-content:center;justify-content:space-between;}
+header{padding:25px 0 25px;}
+.navbar-light .navbar-nav .nav-item{margin-right:20px;}
+.navbar-light .navbar-nav .nav-link{color:#000;font-family:Montserrat;font-size:16px;font-style:normal;font-weight:600;line-height:normal;}
+.navbar-expand-lg .navbar-nav .dropdown-menu{border:none;box-shadow:0 0 13px 0 rgba(0,0,0,0.1);}
+.dropdown-toggle::after{top:15px;background:url(../img/downicon.png) 0 0 no-repeat;border:none;width:12px;height:7px;position:absolute;right:-13px;}
+.loginbuttons{margin:0 0 0 20px;}
+.findadvbtn{border-radius:3px;background:#0DF;display:inline-block;padding:10px 20px;color:#FFF;font-family:Montserrat;font-size:16px;font-style:normal;font-weight:600;line-height:normal;}
+.findadvbtn:hover,.findadvbtn:focus{background:#000;color:#fff;}
+.becomeposbtn{border-radius:3px;background:#00B0CB;color:#FFF;font-family:Montserrat;font-size:16px;font-style:normal;font-weight:600;line-height:normal;padding:10px 20px;margin:0 0 0 3px;}
+.becomeposbtn:hover,.becomeposbtn:focus{background:#000;color:#fff;}
+.navbar-expand-lg .navbar-nav .dropdown-menu li a.dropdown-item:hover,.navbar-expand-lg .navbar-nav .dropdown-menu li a.dropdown-item:focus{background:#00b0cb;color:#fff;}
+.welcomecnt h2{color:#000;font-family:Montserrat;font-size:52px;font-style:normal;font-weight:400;line-height:111.5%;}
+.welcomecnt h3{color:#00B0CB;font-family:Montserrat;font-size:52px;font-style:normal;font-weight:800;line-height:111.5%;margin:0 0 20px;}
+.welcomecnt ul{display:flex;align-items:center;align-content:center;}
+.welcomecnt ul li{display:inline-block;margin:0 30px 0 0;}
+.welcomecnt ul li a{color:#000;font-family:Montserrat;font-size:18px;font-style:normal;font-weight:400;line-height:132.5%;}
+.welcomecnt ul li a svg{display:inline-block;margin:0 5px 0 0;}
+.welcomeimg{margin-bottom:-80px;}
+.insuranceType{margin:-70px 0 0;}
+.insheadingsm{display:none;}
+.insuranceType ul{display:flex;align-items:center;align-content:center;background:#fff;background:#FFF;box-shadow:0px 0px 40px 0px rgba(0,0,0,0.11);padding:40px 40px;z-index:1;position:relative;}
+.insuranceType ul li{display:flex;width:17%;padding:10px 10px 10px 25px;border-right:1px solid #e6e6e6;height:130px;}
+.insuranceType ul li:last-child{border-right:none;}
+.insradiobox{display:block;position:relative;padding-left:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;text-align:center;width:100%;}
+.insradiobox input{position:absolute;opacity:0;cursor:pointer;}
+.insradiobox .checkmark{position:absolute;bottom:7px;right:15px;height:27px;width:27px;border-radius:50%;border:1px solid #A4A4A4;}
+.insradiobox:hover input ~ .checkmark{background-color:#ccc;}
+.insradiobox input:checked ~ .checkmark{background-color:#00B0CB;border-color:#00B0CB;}
+.insradiobox .checkmark:after{content:"";position:absolute;display:none;}
+.insradiobox input:checked ~ .checkmark:after{display:block;}
+.insradiobox .checkmark:after{left:10px;top:6px;width:5px;height:10px;border:solid white;border-width:0 2px 2px 0;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg);}
+label.insradiobox img{text-align:center;margin:auto;}
+.insutitle{display: block;color:#000;font-family:'Montserrat';font-size:14px;font-style:normal;font-weight:400;line-height:normal;text-align:left;margin:20px 0 0;}
+.insutitle strong{color:#2C2C2C;font-family:Montserrat;font-size:20px;font-style:normal;font-weight:600;line-height:normal;display:block;width:100%;}
+label.insradiobox img{max-width:70px;height:50px;object-fit:contain;}
+.whychose{padding:50px 0 50px 0;}
+.whychooseheading{color:#000;font-family:Montserrat;font-size:30px;font-style:normal;font-weight:300;line-height:60px; /* 200% */text-transform:capitalize;text-align:center;margin:0 0 30px;}
+.whychooseheading strong{font-weight:700;}
+.whychose .container{display:flex;align-items:flex-start;align-content:flex-start;}
+.whychoosebox{width:25%;background:#fff;margin:0 1% 30px;padding:25px;height:390px;transition:all ease .3s;}
+.whychoosebox:hover{background:#fff;box-shadow:0 0 15px 0 rgba(0,0,0,0.1);transition:all ease .3s;}
+.whychoosebox h2{color:#00B0CB;font-family:Montserrat;font-size:26px;font-style:normal;font-weight:500;line-height:27px; /* 103.846% */text-transform:capitalize;margin:30px 0 20px;}
+.whychoosebox p{color:#4F4F4F;font-family:Mulish;font-size:16px;font-style:normal;font-weight:400;line-height:24px; /* 150% */text-transform:capitalize;}
+.insuranceslider{margin-top:40px;}
+.insuranceslider .slick-dotted.slick-slider{margin-bottom:30px;}
+.helthinsbox{background:#00C5E3;height:420px;padding:25px;position:relative;}
+.helthinsbox.mt-5{background:linear-gradient(180deg,#0D96AB 0%,#0EC9E6 100%);transition:all ease .3s;}
+.helthinsbox.mt-5:hover{margin-top:0!important;transition:all ease .3s;}
+.helthinsicon img{width:auto;}
+.helthinsbox h2{color:#FFF;font-family:Montserrat;font-size:17px;font-style:normal;font-weight:500;line-height:0px; /* 0% */text-transform:capitalize;margin:0 0 20px 0;}
+.helthinsicon{margin:0 0 30px;}
+.helthinsbox h3{color:#FFF;font-family:Montserrat;font-size:20px;font-style:normal;font-weight:400;line-height:26px; /* 130% */text-transform:capitalize;margin:0 0 20px;}
+.helthinsbox h5{color:#FFF;font-family:Montserrat;font-size:33px;font-style:normal;font-weight:800;line-height:26px; /* 78.788% */text-transform:capitalize;}
+.insuranceslider  .slick-slide{padding:0 5px;}
+.insuimg{position:absolute;right:0;bottom:0;}
+.helthinsbox h6{color:#FFF;font-family:Montserrat;font-size:20px;font-style:normal;font-weight:400;line-height:26px; /* 130% */text-transform:capitalize;}
+.helthinsbox.mt-3{background:linear-gradient(180deg,#0D96AB 0%,#0EC9E6 100%);}
+.insuranceslider .slick-dots li button{border:1px solid #00ddff;border-radius:60px;}
+.insuranceslider .slick-dots{bottom:-50px;}
+.insuranceslider{padding-bottom:40px;}
+.insuranceslider .slick-dots li.slick-active button:before{background:#00b0cb;}
+.insuranceslider .slick-dots li button:before{opacity:1;content:'';width:12px;height:12px;border-radius:60px;top:4px;left:4px;}
+.expertcover{padding:70px 0;}
+.expertcoverheading{color:#000;font-family:Montserrat;font-size:30px;font-style:normal;font-weight:600;line-height:60px; /* 200% */text-transform:capitalize;text-align:center;margin:0 0 10px;}
+.expcovertitle{color:#4F4F4F;text-align:center;font-family:Mulish;font-size:16px;font-style:normal;font-weight:400;line-height:24px;text-transform:capitalize;padding:0 120px;}
+.expercoverlist{display:flex;align-items:flex-start;align-content:flex-start;margin:40px 0 0;}
+.expertcoverbox{background:#FFF;box-shadow:0px 0px 35px 0px rgba(0,0,0,0.05);width:24%;margin:0 1%;padding:25px 21px;height:225px;transition:all ease .3s;}
+.expertcoverbox h2{color:#02A3BC;font-family:Montserrat;font-size:20px;font-style:normal;font-weight:500;line-height:23px; /* 135% */margin:15px 0 10px;}
+.expertcoverbox h3{color:#4F4F4F;font-family:Mulish;font-size:16px;font-style:normal;font-weight:400;line-height:20px; /* 193.75% */text-transform:capitalize;flex-shrink:0;}
+.expertcoverbox:hover,.expertcoverbox:focus{box-shadow:0 0 14px 0 rgba(0,0,0,0.2);transition:all ease .3s;}
+.ourpartner{background:#F2FDFF;padding:40px 0 50px;}
+.ourpartnerheading{color:#000;font-family:Montserrat;font-size:30px;font-style:normal;font-weight:600;line-height:60px; /* 200% */text-transform:capitalize;text-align:center;margin:0 0 20px;}
+.partnerlogo{display:none;}
+.partnerlogos{display:flex;align-items:center;align-content:center;}
+.partnerlogos li{width:20%;margin:0 1% 10px;background:#fff;height:100px;display:flex;align-items:center;align-content:center;justify-content:center;background:#FFF;box-shadow:0px 0px 33px 0px rgba(0,0,0,0.11);}
+.partnerlogos li img{width:auto;object-fit:contain;}
+.customersec{padding:50px 0;}
+.testimonialheding{color:#000;font-family:Montserrat;font-size:30px;font-style:normal;font-weight:600;line-height:40px; /* 200% */text-transform:capitalize;text-align:center;margin:0 0 5px;}
+.testimonialbox img{width:auto;margin-bottom:20px;}
+.testimonialbox{background:#FFF;box-shadow:0px 0px 20px 0px rgba(0,0,0,0.1);height:440px;padding:25px;}
+.testimonialbox p{color:#4F4F4F;font-family:Mulish;font-size:16px;font-style:normal;font-weight:400;line-height:24px; /* 150% */text-transform:lowercase;margin:10px 0 20px;}
+.testimonialbox p{height:240px;overflow-x:auto;padding-right:10px;}
+.testimonialbox p{scrollbar-color:#2abb9b #e0e0e0;scrollbar-width:thin;}
+.testimonialbox p::-webkit-scrollbar{width:6px;}
+.testimonialbox p::-webkit-scrollbar-track{background:#e0e0e0;border-radius:20px;-webkit-border-radius:20px;}
+.testimonialbox p::-webkit-scrollbar-thumb{background:#000;border-radius:20px;-webkit-border-radius:20px;}
+.testimonialbox h2{color:#000;font-family:Montserrat;font-size:22px;font-style:normal;font-weight:600;line-height:24px;text-transform:capitalize;margin:0 0 2px;}
+.testimonialbox h3{color:#000;font-family:Source Sans 3;font-size:16px;font-style:normal;font-weight:400;line-height:24px; /* 150% */text-transform:capitalize;}
+.testimonial .slick-slide{padding:24px 20px;}
+.testimonial .slick-list{padding:15px 0 40px;}
+.testimonial .slick-dots li button{border:1px solid #00ddff;border-radius:60px;}
+.testimonial .slick-dots{bottom:-5px;}
+.testimonial .slick-dots li.slick-active button:before{background:#00b0cb;}
+.testimonial .slick-dots li button:before{opacity:1;content:'';width:12px;height:12px;border-radius:60px;top:4px;left:4px;}
+
+/*footer{margin:40px 0 0;}*/
+.footblack{background:#000;padding:30px 0;}
+.footlocation{display:flex;align-items:center;align-content:center;}
+.ftlocation{margin:0 0.5%;width:29%;display:flex;align-items:center;align-content:center;position:relative;padding:0 0 0 70px;flex-wrap:wrap;min-height:60px;}
+.footlogo{width:25%;}
+.ftlocation img{position:absolute;left:0;top:0;}
+.ftlocation h2{color:#FFF;font-family:Montserrat;font-size:18px;font-style:normal;font-weight:600;line-height:25px; /* 216.667% */text-transform:capitalize;width:100%;}
+.ftlocation p{color:#FFF;font-family:Lato;font-size:14px;font-style:normal;font-weight:300;line-height:20px;text-transform:capitalize;}
+.ftlocation p a{color:#fff;}
+.footlinksec{border-top:1px solid #5C5C5C;margin:40px -20px 0;padding:30px 0 0;display:flex;align-items:flex-start;align-content:flex-start;}
+.footlinkbox{width:20%;padding:0 20px;}
+.footlinkbox h2{color:#FFF;font-family:Montserrat;font-size:19px;font-style:normal;font-weight:700;line-height:29px; /* 195% */text-transform:capitalize;margin:0 0 10px;}
+.footlinkbox ul li a{color:#828282;font-family:'Source Sans 3';font-size:16px;font-style:normal;font-weight:600;line-height:26px; /* 162.5% */text-transform:capitalize;}
+.footlinkbox ul li{margin:0 0 3px;}
+.footlinkbox ul li a:hover,.footlinkbox ul li a:focus{color:#fff;}
+.footmainlinks{display:flex;align-items:center;align-content:center;justify-content:space-between;border-top:1px solid #5C5C5C;border-bottom:1px solid #5C5C5C;margin:40px 0 25px;padding:12px 0;}
+.footmainlinks li{margin:0 3px;}
+.footmainlinks li a{color:#FFF;font-family:Montserrat;font-size:14px;font-style:normal;font-weight:700;line-height:39px; /* 278.571% */text-transform:capitalize;}
+.footmainlinks li a:hover,.footmainlinks li a:focus{text-decoration:underline;}
+.footsocialsec{display:flex;align-items:center;align-content:center;justify-content:space-between;}
+.footsocialcard li{display:inline-block;margin:0 14px 0 0;}
+.footsocialicon{display:flex;align-items:center;align-content:center;justify-content:space-between;}
+.footsocialicon li{margin:0 10px 0 0;}
+.footsocialicon li a{width:46px;height:46px;flex-shrink:0;border:2px solid #6f6f6f;display:flex;border-radius:60px;align-items:center;align-content:center;justify-content:center;}
+.footsocialicon li:last-child{margin:0;}
+.footsocialicon li a:hover,.footsocialicon li a:focus{background:#00b0cb;border-color:#00b0cb;}
+.footwh{padding:15px 6px;text-align:center;}
+.copyright{color:#000;font-family:'Source Sans 3';font-size:16px;font-style:normal;font-weight:400;line-height:26px; /* 162.5% */text-transform:capitalize;}
+#elevator_item{width:40px;height:50px;position:fixed;right:15px;bottom:10px;-webkit-transition:opacity .4s ease-in-out;-moz-transition:opacity .4s ease-in-out;-o-transition:opacity .4s ease-in-out;opacity:1;z-index:100020;display:none;}
+#elevator_item.off{opacity:0;visibility:hidden}
+#elevator{display:block;width:40px;height:40px;background:url(../img/icon_top.webp) center center no-repeat;background-size:15px;background-color:rgb(0 176 203);border-radius:2px;box-shadow:0 1px 3px rgba(0,0,0,.2);cursor:pointer;margin-bottom:10px;}
+#elevator:hover{background-color:rgba(0,0,0,.7)}
+
+/*Health Insurance*/
+.healthinsuranceSec{background:#F1FDFF;padding:20px 0 50px;}
+.healthinsurance{display:flex;align-items:flex-start;align-content:flex-start;justify-content:space-between;}
+.healthinsimg{width:48%;}
+.insuranceplanstep{width:55%;padding:30px 0 0 50px;}
+.insuranceplanstep h2{color:#000;font-family:Montserrat;font-size:30px;font-style:normal;font-weight:400;line-height:45px;text-transform:capitalize;margin:0 0 30px;}
+.insuranceplanstep h2 span{color:#00B0CB;font-family:Montserrat;font-size:30px;font-style:normal;font-weight:700;line-height:45px;text-transform:capitalize;}
+.nav.formsteps li{width:31%;position:relative;}
+.nav.formsteps{border:none;margin-bottom:40px;}
+.nav.formsteps li:before{content:'';width:100%;position:absolute;left:0;top:28px;border-bottom:2px solid #D1D6D7;z-index:0;}
+.nav.formsteps li button{position:relative;width:58px;height:58px;border:2px solid #00B0CB;border-radius:80px;background:#fff;color:#2C2C2C;text-align:center;font-family:Montserrat;font-size:26px;font-style:normal;font-weight:500;line-height:28px;text-transform:capitalize;z-index:1;}
+.nav.formsteps li:before{border-bottom-color:#00b0cb;}
+.nav.formsteps li button.active{background:#00B0CB;border-color:#00B0CB;color:#fff;}
+.nav.formsteps li:last-child::before{display:none;}
+.form-select{border-color:#00B0CB;border-radius:10px;padding:15px 18px;color:#000;font-family:Mulish;font-size:18px;font-style:normal;font-weight:300;}
+.form-select:hover,.form-select:focus{outline:none;box-shadow:none;}
+.insuranceform label.form-label{color:#000;font-family:Montserrat;font-size:24px;font-style:normal;font-weight:400;}
+button.btn.btn-primary{border-radius:5px;background:#00B0CB;display:inline-block;min-width:200px;border:none;padding:10px 10px;color:#FFF;text-align:center;font-family:Montserrat;font-size:22px;font-style:normal;font-weight:500;text-transform:capitalize;}
+button.btn.btn-primary:hover,button.btn.btn-primary:focus{background:#000;color:#fff;outline:none;box-shadow:none;}
+.buyexpertcover{padding:60px 0;}
+h2.buyexpheading{color:#000;text-align:center;font-family:Montserrat;font-size:30px;font-style:normal;font-weight:400;line-height:45px;text-transform:capitalize;margin:0 0 50px;}
+h2.buyexpheading span{color:#000;font-family:Montserrat;font-size:30px;font-style:normal;font-weight:600;line-height:45px;text-transform:capitalize;}
+.buyexpbox{padding:20px;width:100%;background:#fff;height:360px;}
+.buyexpbox h2{color:#1C1C1C;font-family:Montserrat;font-size:23px;font-style:normal;font-weight:600;line-height:26px;text-transform:capitalize;margin:25px 0 8px;}
+.buyexpbox p{color:#4F4F4F;font-family:Mulish;font-size:16px;font-style:normal;font-weight:400;line-height:24px;}
+.buyexpbox:hover{box-shadow:0 0 15px 0 rgba(0,0,0,0.1);}
+.abouthealthins{position:relative;padding:20px 0 20px;margin:30px 0;min-height:750px;}
+.healthinsimages{position:absolute;right:0;top:0;bottom:0;margin:auto;padding:0 0 0 60px;text-align:right;}
+.abouthealthins h2{color:#000;font-family:Montserrat;font-size:28px;font-style:normal;font-weight:300;line-height:45px;text-transform:capitalize;margin:0 0 25px;}
+.abouthealthins h2 span{color:#000;font-family:Montserrat;font-size:28px;font-style:normal;font-weight:600;line-height:30px;text-transform:capitalize;}
+.abouthealthins ul li{color:#4F4F4F;font-family:Mulish;font-size:16px;font-style:normal;font-weight:400;line-height:24px; /* 150% */margin:0 0 30px;padding:0 0 0 40px;background:url(../img/bluecheck.png)0 5px no-repeat;}
+.boxrevers .healthinsimages{right:inherit;left:0;text-align:left;padding:0 60px 0 0;}
+.abouthealthins .col-md-7{padding-right:120px;}
+.abouthealthins.boxrevers .col-md-7{padding-right:0;padding-left:80px;}
+.disclaimersec h2{color:#000;font-family:Montserrat;font-size:28px;font-style:normal;font-weight:600;line-height:32px; /* 160.714% */text-transform:capitalize;margin:0 0 10px;}
+.disclaimersec p{color:#4F4F4F;font-family:Mulish;font-size:16px;font-style:normal;font-weight:400;line-height:24px; /* 150% */}
+.disclaimersec{margin:50px 0 70px;}
+.combobox{display:block;position:relative;padding-left:38px;margin-bottom:12px;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;color:#000;font-family:Montserrat;font-size:18px;font-style:normal;font-weight:400;text-transform:capitalize;}
+.combobox input{position:absolute;opacity:0;cursor:pointer;height:0;width:0;}
+.combobox .checkmark{position:absolute;top:0;left:0;height:25px;width:25px;background-color:#eee;border-radius:60px;}
+.combobox:hover input ~ .checkmark{background-color:#ccc;}
+.combobox input:checked ~ .checkmark{background-color:#00B0CB;}
+.combobox .checkmark:after{content:"";position:absolute;display:none;}
+.combobox input:checked ~ .checkmark:after{display:block;}
+.combobox .checkmark:after{left:10px;top:5px;width:5px;height:10px;border:solid white;border-width:0 2px 2px 0;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg);}
+.combobox .checkmark{background:#fff;border-color:#00B0CB;border:1px solid #00B0CB;}
+.insurancecombo{margin:15px 0 20px;}
+.insurancecombo li{display:inline-block;width:48%;margin:0 0 5px;}
+.genderbox{display:block;position:relative;cursor:pointer;padding:6px 10px 6px 50px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;color:#000;font-family:Montserrat;font-size:18px;font-style:normal;font-weight:400;line-height:45px;text-transform:capitalize;}
+.genderbox input{position:absolute;opacity:0;cursor:pointer;}
+.genderbox .checkmark{position:absolute;top:15px;left:15px;height:25px;width:25px;background-color:#fff;border-radius:50%;border:none;border:1px solid #00b0cb;}
+.genderbox:hover input ~ .checkmark{background-color:#ccc;}
+.genderbox input:checked ~ .checkmark{background-color:#00B0CB;}
+.genderbox .checkmark:after{content:"";position:absolute;display:none;}
+.genderbox input:checked ~ .checkmark:after{display:block;}
+.genderbox .checkmark:after{left:10px;top:7px;width:5px;height:10px;border:solid white;border-width:0 2px 2px 0;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg);}
+.genderselect li {    display: inline-block; width: 47%; margin: 0 1%; }
+.genderselect label{ width: 100%;display:inline-block;border-radius:10px;border:1px solid #00B0CB;background:#FFF;}
+.genderselect{margin:0 -2%;}
+.form-control{border-color:#00B0CB;border-radius:10px;padding:15px 18px;color:#000;font-family:Mulish;font-size:18px;font-style:normal;font-weight:300;}
+.form-control:hover,.form-control:focus{outline:none;box-shadow:none;}
+.existingIllness li{margin:0 0 30px;}
+.illnessbox{display:block;position:relative;padding-left:35px;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;color:#000;font-family:Mulish;font-size:17px;font-style:normal;font-weight:300;line-height:23px;}
+.illnessbox input{position:absolute;opacity:0;cursor:pointer;}
+.illcheckmark{position:absolute;top:4px;left:0;height:25px;width:25px;border-radius:50%;background:#fff;border:1px solid #00B0CB;}
+.illnessbox:hover input ~ .illcheckmark{background-color:#ccc;}
+.illnessbox input:checked ~ .illcheckmark{background-color:#00B0CB;}
+.illcheckmark:after{content:"";position:absolute;display:none;}
+.illnessbox input:checked ~ .illcheckmark:after{display:block;}
+.illnessbox .illcheckmark:after{left:10px;top:6px;width:5px;height:10px;border:solid white;border-width:0 2px 2px 0;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg);}
+.justfewdetail h2{color:#000;font-family:Montserrat;font-size:30px;font-style:normal;font-weight:600;line-height:33px; /* 150% */margin:0 0 6px;}
+.justfewdetail h3{color:#000;font-family:Montserrat;font-size:30px;font-style:normal;font-weight:300;line-height:41px; /* 150% */margin:0 0 30px;}
+.justfewdetail h4{color:#000;font-family:Montserrat;font-size:23px;font-style:normal;font-weight:400;line-height:30px; /* 187.5% */margin:0 0 30px;}
+label.illnessbox strong{display:block;width:100%;color:#000;font-family:Montserrat;font-size:24px;font-style:normal;font-weight:400;line-height:30px; /* 187.5% */}
+.healthinsuranceCenter{align-items:center;align-content:center;}
+.existingill li{width:100%;}
+.filter{background:#00B0CB;padding:15px 0;}
+.filter .container{display:flex;align-items:center;align-content:center;justify-content:space-between;}
+.insplanresult h2{color:#FFF;font-family:Montserrat;font-size:15px;font-style:normal;font-weight:500;line-height:25px; /* 300% */margin:0 0 5px;}
+.insplanresult h3{color:#FFF;font-family:Montserrat;font-size:24px;font-style:normal;font-weight:600;line-height:28px; /* 187.5% */margin:0 0 6px;}
+.insplanresult h4{color:#FFF;font-family:Montserrat;font-size:16px;font-style:normal;font-weight:300;line-height:23px; /* 281.25% */text-transform:capitalize;}
+.allfilter a{display:inline-block;min-width:200px;padding:5px 10px;color:#00B0CB;font-family:Montserrat;font-size:20px;font-style:normal;font-weight:600;line-height:45px; /* 225% */text-transform:uppercase;border-radius:10px;border:1px solid #00B0CB;background:#FFF;text-align:center;}
+.allfilter a img{display:inline-block;vertical-align:middle;margin:0 5px 0 0}
+.allfilter a:hover,.allfilter a:focus{background:#000;color:#fff;}
+.inscmpysec{background:#F1FDFF;padding:40px 0;}
+.inscmpylisting{margin:0 0 30px;}
+.inscmplistbox{display:flex;align-items:center;align-content:center;justify-content:space-between;background:#fff;border-radius:10px 10px 0 0;padding:25px 20px;}
+.cmpyfacility h2{color:#000;font-family:Montserrat;font-size:24px;font-style:normal;font-weight:600;line-height:28px; /* 116.667% */text-transform:capitalize;}
+.cmpyfacility{width:70%;padding:0 0 0 20px;}
+.cmpylogo{width:30%;}
+.cmpyfacility p{color:#000;font-family:Montserrat;font-size:14px;font-style:normal;font-weight:400;line-height:18px; /* 200% */letter-spacing:0.28px;}
+.covertype{margin:20px 0 0;display:flex;align-items:center;align-content:center;justify-content:space-between;}
+.coveramt{border-radius:10px;border:1px solid #00B0CB;background:#FFF;width:33%;margin:0 1%;height:70px;text-align:center;display:inline-flex;align-items:center;align-content:center;flex-wrap:wrap;justify-content:center;}
+.ComparePolicy{background:#FFF;border-radius:10px;border:1px solid #00B0CB;background:#FFF;width:33%;margin:0 1%;height:70px;text-align:center;display:inline-flex;align-items:center;align-content:center;flex-wrap:wrap;justify-content:center;}
+.coveramt h3{width:100%;color:#00B0CB;font-family:Montserrat;font-size:26px;font-style:normal;font-weight:600;line-height:28px; /* 107.692% */text-transform:capitalize;}
+.coveramt h4{color:#6D6D6D;font-family:Montserrat;font-size:14px;font-style:normal;font-weight:400;line-height:19px; /* 200% */text-transform:capitalize;}
+.ComparePolicy a{color:#000;font-family:Montserrat;font-size:20px;font-style:normal;font-weight:600;line-height:45px;text-transform:capitalize;height:100%;display:flex;align-items:center;align-content:center;justify-content:center;width:100%;border-radius:10px;}
+.ComparePolicy a img{display:inline-block;margin:0 5px 0 0;}
+.welove{border-radius:0px 0px 15px 15px;background:rgba(155,242,255,0.50);padding:25px;display:flex;align-items:center;align-content:center;justify-content:space-between;}
+.welovebox{width:70%;}
+.inspricebox{width:30%;}
+.welovebox h2{color:#000;font-family:Montserrat;font-size:18px;font-style:normal;font-weight:600;line-height:22px; /* 155.556% */margin:0 0 3px;}
+.welovebox h2 img{display:inline-block;vertical-align:middle;margin:0 3px 0 0;}
+.welovebox p{color:#000;font-family:Montserrat;font-size:12px;font-style:normal;font-weight:400;line-height:18px; /* 233.333% */letter-spacing:0.24px;}
+.pricebtn{display:block;padding:10px 0;border-radius:5px;background:#00B0CB;color:#FFF;font-family:Montserrat;font-size:18px;font-style:normal;font-weight:700;line-height:28px; /* 155.556% */letter-spacing:0.36px;text-transform:lowercase;text-align:center;width:100%;}
+.pricebtn:hover,.pricebtn:focus{background:#000;color:#fff;}
+.inspricebox h3{color:#000;font-family:Montserrat;font-size:14px;font-style:normal;font-weight:400;line-height:28px; /* 200% */letter-spacing:0.28px;text-transform:capitalize;text-align:center;}
+.clientstorybox{margin:0 0 20px;}
+.claimsheading{border-radius:0px 15px;background:#FF725E;color:#FFF;text-align:center;font-family:Montserrat;font-size:17px;font-style:normal;font-weight:700;line-height:20px; /* 117.647% */letter-spacing:0.51px;text-transform:capitalize;padding:18px 9px;text-align:center;margin:0 0 20px;}
+.clientslider{border-radius:10px;background:#FFF;padding:20px;margin-bottom:90px!important;padding-bottom:40px;}
+.storyslidetop{display:flex;align-items:center;align-content:center;justify-content:space-between;}
+.clientnames{width:80%;padding:0 0 0 10px;}
+.storyuser{width:20%;}
+.clientnames h3{color:#000;text-align:left;font-family:Montserrat;font-size:16px;font-style:normal;font-weight:400;line-height:20px; /* 125% */text-transform:capitalize;margin:0 0 5px;}
+.clientnames h3 strong{font-weight:700;}
+.clientnames h4{color:#000;text-align:left;font-family:Montserrat;font-size:12px;font-style:normal;font-weight:400;line-height:14px; /* 166.667% */text-transform:capitalize;}
+.storyslides p{color:#4F4F4F;font-family:Mulish;font-size:14px;font-style:normal;font-weight:400;line-height:22px; /* 157.143% */}
+.seestory{text-align:right;}
+.seestory a{color:#00B0CB;text-align:center;font-family:Montserrat;font-size:13px;font-style:normal;font-weight:700;line-height:20px; /* 153.846% */text-transform:capitalize;}
+.clientslider .slick-dots li button{border:1px solid #00ddff;border-radius:60px;}
+.clientslider .slick-dots{bottom:-50px;left:0;right:0;}
+.clientslider .slick-dots li.slick-active button:before{background:#00b0cb;}
+.clientslider .slick-dots li button:before{opacity:1;content:'';width:12px;height:12px;border-radius:60px;top:4px;left:4px;}
+.addbanner{margin:0 0 20px;}
+.paginationsec ul{margin:20px 0 0;text-align:center;}
+.paginationsec ul li{display:inline-block;margin:0 4px;}
+.paginationsec ul li a{display:flex;width:40px;height:40px;border:1px solid transparent;color:#00B0CB;text-align:center;font-family:Montserrat;font-size:19px;font-style:normal;font-weight:600;line-height:20px; /* 105.263% */text-transform:capitalize;align-items:center;align-content:center;justify-content:center;border-radius:60px;}
+.paginationsec ul li.active a,.paginationsec ul li a:hover,.paginationsec ul li a:focus{border-color:#00B0CB;background:#fff;}
+.twowheelerinsusec{align-items:center;align-content:center;}
+.twowheelerinsu h2{color:#000;font-family:Montserrat;font-size:30px;font-style:normal;font-weight:400;line-height:45px; /* 150% */text-transform:capitalize;margin:0 0 20px;}
+.twowheelerinsu h2 span{color:#00B0CB;font-family:Montserrat;font-size:30px;font-style:normal;font-weight:700;line-height:45px;text-transform:capitalize;}
+.twowheelerinsu{padding:40px 0 0 30px;width:51%;}
+.nav.tabsmenu li{margin:0 40px 0 0;}
+.nav.tabsmenu li button{border:none;color:#000;font-family:Montserrat;font-size:24px;font-style:normal;font-weight:400;line-height:45px; /* 187.5% */background:none;padding:0;}
+.nav.tabsmenu{margin:0 0 20px;border:none;}
+.nav.tabsmenu li button.active{background:transparent;}
+.twoinsuranceform input{margin:0 0 20px;}
+.nav.tabsmenu li button.active svg circle{fill:#00B0CB;}
+.nav.tabsmenu li button.active svg path{fill:#fff;}
+.twowheelerinsu .nav.formsteps li{width:20%;}
+.selectcitybike h2{color:#00B0CB;font-family:Montserrat;font-size:27px;font-style:normal;font-weight:600;line-height:30px; /* 166.667% */text-transform:capitalize;margin:0 0 10px;}
+.selectcitybike{margin:0 0 30px;}
+.cityTab h2{color:#000;font-family:Montserrat;font-size:19px;font-style:normal;font-weight:500;line-height:20px; /* 236.842% */}
+.allcitybike ul{display:flex;flex-wrap:wrap;}
+.allcitybike ul li{display:inline-flex;width:23%;margin:0 1% 14px;}
+.allcitybike ul li button{border-radius:6px;background:#FFF;box-shadow:0px 5px 11px 0px rgba(0,0,0,0.09);border:none;width:100%;padding:13px 10px;color:#000;font-family:Montserrat;font-size:19px;font-style:normal;font-weight:400;     /* 236.842% */text-transform:capitalize;border:2px solid transparent;}
+.allcitybike ul li.active button,.allcitybike ul li:hover button,.allcitybike ul li:focus button{border:2px solid #00B0CB;color:#00B0CB;}
+.cityselectionform .nav.tabsmenu li button{font-size:19px;}
+.cityselectionform .nav.tabsmenu li button svg{width:28px;height:28px;}
+.cityselectionform .tab-content{margin-bottom:20px;}
+
+/*.twowheelerinsuSec { align-items: center; align-content: center; }*/
+.twowheelerinsuSec .healthinsimg{width:50%;padding:40px 0 0;}
+.twowheelerinsuSec 
+.twowheelerinsu{width:50%;}
+.popularmanufac h2{color:#000;font-family:Montserrat;font-size:19px;font-style:normal;font-weight:500;line-height:25px; /* 236.842% */text-transform:capitalize;margin:0 0 10px;}
+.popularmanufac ul{display:flex;align-items:center;align-content:center;flex-wrap:wrap;}
+.popularmanufac ul li{border-radius:2px;background:#FFF;box-shadow:0px 5px 11px 0px rgba(0,0,0,0.09);width:23%;margin:0 1% 10px;height:80px;display:flex;align-items:center;align-content:center;justify-content:center;}
+.popularmanufac ul li button{border:none;background:none;}
+.moremenufa{text-align:right;margin:10px 0 10px;}
+.moremenufa a{color:#00B0CB;font-family:Montserrat;font-size:19px;font-style:normal;font-weight:500;line-height:45px; /* 236.842% */text-decoration-line:underline;text-transform:uppercase;}
+.popularmodal h3{color:#000;font-family:Montserrat;font-size:19px;font-style:normal;font-weight:500;line-height:24px; /* 236.842% */text-transform:capitalize;margin:0 0 20px;}
+.popularmodal{margin:0 0 20px;}
+.popularmodal .existingIllness{display:flex;align-items:center;align-content:center;flex-wrap:wrap;}
+.popularmodal .existingIllness li{width:31%;margin:0 1% 20px;}
+.popularmodal .illcheckmark{background:#fff;border:1px solid #00B0CB;}
+.popularmodal .illcheckmark{top:0;}
+.popularmodal .illcheckmark:before{position:absolute;content:'';left:10px;top:6px;width:5px;height:10px;border:solid #00B0CB;border-width:0 2px 2px 0;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg);}
+.popularmodal .illnessbox:hover input ~ .illcheckmark{background-color:none;}
+.wheelervarient .existingIllness li{width:48%;margin:0 1% 20px;}
+.regyear .existingIllness li{width:20%;margin:0 1% 20px;}
+.vehicledetailsec h2{color:#000;font-family:Montserrat;font-size:22px;font-style:normal;font-weight:500;line-height:45px; /* 204.545% */text-transform:capitalize;}
+.vehicledetailbox{align-items:center;align-content:center;}
+.vehicledetailform{display:flex;align-items:flex-start;align-content:flex-start;flex-wrap:wrap;width:100%;}
+.vehicledetailform li{width:100%;margin:0 0 20px;}
+.vehicledetailform li.halfbox{display:flex;align-items:center;align-content:center;justify-content:space-between;}
+.vehicledetailform li.halfbox div{width:48%;}
+.vehicledetailform li label{background:#F1FDFF;color:#00B0CB;font-family:Montserrat;font-size:14px;font-style:normal;font-weight:600;line-height:16px; /* 321.429% */text-transform:capitalize;position:absolute;left:20px;top:-9px;padding:1px 11px;text-align:center;}
+.vehicledetailform li div{position:relative;}
+.vehicledetailform li div input{border-radius:10px;border:1px solid #00B0CB;background:#FFF;padding:13px 20px;width:100%;color:#101010;font-family:Montserrat;font-size:19px;font-style:normal;font-weight:500;line-height:45px; /* 236.842% */text-transform:capitalize;}
+.vehicledetailform li div input::-webkit-input-placeholder{color:#101010}
+.vehicledetailform li div input:-moz-placeholder{color:#101010}
+.vehicledetailsec button.btn.btn-primary{width:100%;}
+.yourvehicledetail{border-radius:10px;background:#FFF;box-shadow:0 0 2px 0 rgba(0,0,0,0.1);margin:0 0 20px;}
+.vehicledetailtop{display:flex;align-items:center;align-content:center;justify-content:space-between;margin:0 0 20px;border-bottom:1px solid #EAEAEA;padding:4px 15px;}
+.vehicledetailtop h2{color:#000;font-family:Montserrat;font-size:16px;font-style:normal;font-weight:500;line-height:45px; /* 281.25% */text-transform:capitalize;}
+.editopt a{color:#00B0CB;font-family:Montserrat;font-size:12px;font-style:normal;font-weight:700;line-height:20px; /* 166.667% */text-transform:capitalize;}
+.vehiclenames{padding:0 0 0 15px;display:flex;align-items:center;align-content:center;margin:0 0 20px;}
+.vehiclenameoptions span{color:#000;font-family:Montserrat;font-size:16px;font-style:normal;font-weight:500;line-height:20px; /* 125% */text-transform:capitalize;display:block;width:100%;}
+.vehiclenameoptions{padding:0 0 0 10px;color:#A3A3A3;font-family:Montserrat;font-size:12px;font-style:normal;font-weight:500;line-height:20px; /* 166.667% */text-transform:capitalize;}
+.vehicleyearopt{display:flex;align-items:center;align-content:center;justify-content:space-between;padding:0 15px 20px;}
+.vehyear span{display:block;color:#000;font-family:Montserrat;font-size:16px;font-style:normal;font-weight:500;line-height:20px; /* 125% */text-transform:capitalize;}
+.vehyear{color:#A3A3A3;font-family:Montserrat;font-size:12px;font-style:normal;font-weight:500;line-height:20px; /* 166.667% */text-transform:capitalize;}
+.insurelowprice{padding:0 15px 20px;color:#000;font-family:Mulish;font-size:14px;font-style:normal;font-weight:300;line-height:17px; /* 142.857% */text-transform:capitalize;display:flex;align-items:center;align-content:center;}
+.insurelowprice span{color:#000;font-family:Mulish;font-size:16px;font-style:normal;font-weight:500;line-height:20px;text-transform:capitalize;}
+.claimlist{padding:0 15px 20px;}
+.claimlist ul li{color:#000;font-family:Mulish;font-size:12px;font-style:normal;font-weight:400;line-height:17px; /* 166.667% */text-transform:capitalize;margin:0 0 6px;}
+.noclaimbonus{border-radius:10px;background:#FFF;box-shadow:0 0 2px 0 rgba(0,0,0,0.1);margin:0 0 20px;}
+.planduration{margin:0 0 20px;}
+.planduration select{border:none;color:#000;font-family:Montserrat;font-size:16px;font-style:normal;font-weight:500;line-height:22px; /* 281.25% */text-transform:capitalize;box-shadow:0 0 2px 0 rgba(0,0,0,0.1);padding:13px 11px;}
+.planduration select:hover,.planduration select:focus{outline:none;box-shadow:none;}
+.insuranceplansec{background:#F1FDFF;padding:50px 0;}
+.bikecoverplanform ul{display:flex;align-items:flex-start;align-content:flex-start;flex-wrap:wrap;margin:0 -1%;}
+.bikecoverplanform ul li{display:inline-block;width:31%;margin:0 1% 20px;position:relative;}
+.bikecoverplanform ul li label{color:#00B0CB;font-family:Montserrat;font-size:14px;font-style:normal;font-weight:600;line-height:16px; /* 321.429% */text-transform:capitalize;display:block;background:#f1fdff;padding:1px 7px;position:absolute;left:15px;top:-10px;}
+.bikecoverplanform ul li select{border-radius:8px;border:1px solid #00B0CB;background:#FFF;box-shadow:0px 4px 11px 0px rgba(0,0,0,0.06);display:block;width:100%;padding:16px 24px;color:#969696;font-family:Montserrat;font-size:16px;font-style:normal;font-weight:300;line-height:20px; /* 125% */text-transform:capitalize;}
+li.coverbutton{display:flex;}
+.bikecoverplanform ul li.coverbutton{width:97%;    /* margin: 0 0 0; */display:flex;align-items:center;align-content:center;justify-content:space-between;}
+.bikecoverplanform ul li.coverbutton button{border-radius:8px;background:#FFF;box-shadow:0px 4px 11px 0px rgba(0,0,0,0.06);border:none;padding:17px 10px;width:49%;color:#757575;font-family:Montserrat;font-size:17px;font-style:normal;font-weight:500;line-height:normal;text-transform:capitalize;}
+.bikecoverplanform ul li.coverbutton button.active{border-radius:8px;border:1px solid #00B0CB;background:#FFF;box-shadow:0px 4px 11px 0px rgba(0,0,0,0.06);color:#00B0CB;font-family:Montserrat;font-size:17px;font-style:normal;font-weight:500;line-height:normal;text-transform:capitalize;}
+.Comprehensiveplans h2{color:#000;font-family:Montserrat;font-size:23px;font-style:normal;font-weight:500;line-height:25px; /* 195.652% */text-transform:capitalize;margin:0 0 10px;}
+.Comprehensiveplans h3{color:#455A64;font-family:Montserrat;font-size:16px;font-style:normal;font-weight:500;line-height:22px; /* 137.5% */text-transform:capitalize;}
+.Comprehensiveplans{margin:10px 0 20px;}
+.comprehplanlist{display:flex;align-items:center;align-content:center;border-radius:6px;background:#FFF;box-shadow:0px 5px 11px 0px rgba(0,0,0,0.09);margin:0 0 20px;padding:20px;justify-content:space-between;}
+.idv{padding:0 20px;color:#000;font-family:Mulish;font-size:16px;font-style:normal;font-weight:600;line-height:20px; /* 125% */text-align:center;}
+.idv span{color:#000;font-family:Montserrat;font-size:23px;font-style:normal;font-weight:600;line-height:20px; /* 86.957% */text-transform:capitalize;display:block;margin:5px 0 0;}
+button.planpricebtn{border-radius:8px;background:#00B0CB;border:none;width:190px;color:#FFF;text-align:center;font-family:Montserrat;font-size:23px;font-style:normal;font-weight:600;line-height:20px; /* 86.957% */text-transform:capitalize;padding:14px 10px;}
+button.planpricebtn:hover,button.planpricebtn:focus{background:#000;color:#fff;}
+.breadcrumb{background:#F1FDFF;padding:20px 15px;text-align:center;justify-content:center;}
+.breadcrumb h2{width:100%;color:#000;font-family:Montserrat;font-size:30px;font-style:normal;font-weight:600;line-height:111.5%; /* 33.45px */margin:0 0 3px;}
+.breadcrumb ul li{display:inline-block;margin:0 10px;}
+.breadcrumb ul li a{color:#000;font-family:Montserrat;font-size:16px;font-style:normal;font-weight:400;line-height:111.5%; /* 17.84px */}
+.breadcrumb ul li span{color:#00B0CB;font-family:Montserrat;font-size:16px;font-style:normal;font-weight:400;line-height:111.5%;}
+.findinsurance{padding:30px 0;}
+.findinsurance .container{display:flex;align-items:center;align-content:center;}
+.findinscnt{width:50%;padding:0 30px 0 0;}
+.findinscnt h2{color:#000;font-family:Montserrat;font-size:30px;font-style:normal;font-weight:600;line-height:125.5%; /* 37.65px */margin:0 0 10px;}
+.findinscnt p{color:#4F4F4F;font-family:Mulish;font-size:16px;font-style:normal;font-weight:400;line-height:24px; /* 150% */margin:0 0 16px;}
+.howdowe{padding:70px 0;background:#F1FDFF;}
+h2.howdoheading{color:#000;font-family:Montserrat;font-size:30px;font-style:normal;font-weight:600;line-height:125.5%; /* 37.65px */text-align:center;margin:0 0 10px;}
+p.wedotitle{color:#4F4F4F;text-align:center;font-family:Mulish;font-size:16px;font-style:normal;font-weight:400;line-height:24px; /* 150% */margin:0 0 60px;}
+.ourmanegement h2{color:#1C1C1C;font-family:Montserrat;font-size:24px;font-style:normal;font-weight:600;line-height:27px; /* 112.5% */text-transform:capitalize;margin:20px 0 10px;}
+.ourmanegement p{color:#4F4F4F;font-family:Mulish;font-size:16px;font-style:normal;font-weight:400;line-height:24px; /* 150% */}
+.ourmanegement{padding:25px;transition:all ease .3s;}
+.ourmanegement:hover{background:#fff;box-shadow:0 0 25px 0 rgba(0,0,0,0.1);transition:all ease .3s;}
+.visionsec .container .row{display:flex;align-items:center;align-content:center;}
+.visionsec{padding:50px 0;}
+.visioncnt h2{color:#000;font-family:Montserrat;font-size:30px;font-style:normal;font-weight:600;line-height:125.5%; /* 37.65px */margin:0 0 10px;}
+.visioncnt p{color:#4F4F4F;font-family:Mulish;font-size:16px;font-style:normal;font-weight:400;line-height:24px; /* 150% */}
+.solutionsec{background:#00B0CB;padding:40px 0;}
+.solutionsec .container{display:flex;align-items:center;align-content:center;}
+.solutionsec h2{color:#FFF;font-family:Montserrat;font-size:30px;font-style:normal;font-weight:500;line-height:125.5%; /* 37.65px */width:50%;}
+.getcover p{color:#FFF;font-family:Montserrat;font-size:26px;font-style:normal;font-weight:300;line-height:125.5%; /* 32.63px */margin:0 0 20px;}
+.getcover{width:50%;}
+.getworldbtn button{border:none;padding:8px 25px;margin:0 10px 0 0;border-radius:5px;background:#FFF;color:#00B0CB;text-align:center;font-family:Montserrat;font-size:22px;font-style:normal;font-weight:500;     /* 204.545% */}
+.getworldbtn button:hover,.getworldbtn button:focus{background:#000;color:#fff;}
+.contactsec{padding:70px 0;}
+.contactcnt h2{color:#000;font-family:Montserrat;font-size:30px;font-style:normal;font-weight:600;line-height:125.5%; /* 37.65px */margin:0 0 10px;}
+.contactinfo{color:#4F4F4F;font-family:Mulish;font-size:16px;font-style:normal;font-weight:400;line-height:24px; /* 150% */margin:0 0 25px;padding:0 40px 0 0;}
+.contactcnt ul{margin:25px 0 0;}
+.contactcnt ul li{display:flex;align-items:center;align-content:center;margin:0 0 30px;}
+.addressbox{padding:0 0 0 20px;}
+.addressbox h3{color:#000;font-family:Montserrat;font-size:22px;font-style:normal;font-weight:600;line-height:25px;margin:0 0 3px;}
+.addressbox p{color:#4F4F4F;font-family:Mulish;font-size:16px;font-style:normal;font-weight:400;line-height:22px; /* 150% */text-transform:capitalize;padding-right:160px;}
+.addressbox h4{color:#4F4F4F;font-family:Mulish;font-size:23px;font-style:normal;font-weight:400;line-height:24px; /* 104.348% */text-transform:capitalize;}
+.addressbox h4 a{color:#4F4F4F;}
+.gettouchform h2{color:#000;font-family:Montserrat;font-size:30px;font-style:normal;font-weight:600;line-height:125.5%; /* 37.65px */margin:0 0 26px;}
+.gettouchform ul li{position:relative;margin:0 0 37px;}
+.gettouchform ul li label{position:absolute;left:30px;top:-9px;color:#00B0CB;font-family:Montserrat;font-size:14px;font-style:normal;font-weight:600;line-height:15px; /* 321.429% */text-transform:capitalize;background:#fff;padding:1px 10px;}
+.becomepos{padding:70px 0;}
+.posheading{color:#000;font-family:Montserrat;font-size:30px;font-style:normal;font-weight:600;line-height:111.5%; /* 33.45px */text-align:center;margin:0 0 40px;}
+.posreg .nav.formsteps li{width:31%;position:relative;}
+.posreg .nav.formsteps{text-align:center;}
+.posreg .nav.formsteps li:last-child{width:auto;}
+.posreg .nav.formsteps li span{position:absolute;left:-70px;color:#000;font-family:Montserrat;font-size:20px;font-style:normal;font-weight:600;line-height:111.5%;bottom:-40px;min-width:210px;}
+.posreg .nav.formsteps{margin-bottom:100px;}
+.posreg .nav.formsteps li button.active + span{color:#00B0CB;}
+.posformbox{width:100%;max-width:795px;background:#FFF;box-shadow:0px 0px 40px 0px rgba(0,0,0,0.11);margin:0 auto;padding:50px 70px;}
+.posformbox ul li > label{color:#00B0CB;font-family:Montserrat;font-size:14px;font-style:normal;font-weight:600;text-transform:capitalize;position:absolute;left:25px;top:-14px;background:#fff;padding:2px 7px;}
+.posformbox ul li{position:relative;margin:0 0 30px;}
+.note{color:#4F4F4F;font-family:Mulish;font-size:16px;font-style:normal;font-weight:500;line-height:24px; /* 150% */}
+.selectgender{display:flex;align-items:center;align-content:center;}
+.selectgender .genderbox .checkmark{left:0;}
+.selectgender .genderbox .checkmark:after{top:5px;}
+.selectgender .genderbox{padding-left:35px;margin-right:10px;}
+.genderoption h3{color:#00B0CB;font-family:Montserrat;font-size:16px;font-style:normal;font-weight:600;line-height:111.5%; /* 17.84px */}
+.otpmodal  .modal-dialog{max-width:716px;width:96%;}
+.otpmodal .modal-content{padding:35px 20px;border:none;text-align:center;display:block;}
+.otpmodal .modal-content h2{color:#000;font-family:Montserrat;font-size:30px;font-style:normal;font-weight:600;line-height:111.5%; /* 33.45px */margin:0 0 10px;}
+.otpmodal .modal-content h3{color:#4F4F4F;font-family:Mulish;font-size:20px;font-style:normal;font-weight:700;line-height:24px; /* 120% */margin:0 0 40px;}
+.otpmodal .modal-content h4{color:#4F4F4F;font-family:Mulish;font-size:20px;font-style:normal;font-weight:300;line-height:24px; /* 120% */text-transform:capitalize;margin:0 0 20px;}
+.otpmodal .modal-content input.form-control{max-width:63%;margin:0 auto 20px;}
+button.btn-close{background:none;cursor:pointer!important;right:-10px;position:absolute;top:-50px;z-index:3;width:40px;height:40px;opacity:1;}
+.uploaddoc ul{display:flex;align-items:center;align-content:center;flex-wrap:wrap;}
+.uploaddoc ul li{width:31%;margin:0 1% 20px;}
+.file-wrapper{width:186px;height:186px;position:relative;border:2px solid #00B0CB;background:#FFF;}
+
+/*.file-wrapper:after{content:'+';position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;width:max-content;height:max-content;display:block;max-height:85px;font-size:70px;font-weight:bolder;color:gray;}*/
+
+/*.file-wrapper:before{content:'UPLOAD IMAGE RATIO 5:5';display:block;position:absolute;left:0;right:0;margin:auto;bottom:35px;width:max-content;height:max-content;font-size:0.75em;color:gray;}*/
+.file-wrapper:hover:after{font-size:73px;}
+.file-wrapper .close-btn{display:none;}
+input[type="file"]{position:absolute;width:100%;height:100%;opacity:0;z-index:99999;cursor:pointer;}
+.file-set{background-size:cover;background-repeat:no-repeat;color:transparent;padding:10px;border-width:0px;border:2px solid #00B0CB;}
+.file-set:hover{transition:all 0.5s ease-out;filter:brightness(110%);}
+.file-set:before{color:transparent;}
+.file-set:after{color:transparent;}
+.file-set .close-btn{position:absolute;width:25px;height:25px;display:block;background:#cd1b1b;color:#fff;top:0;right:0;font-size:15px;text-align:center;line-height:1.5;cursor:pointer;opacity:0.8;}
+.file-set > input{pointer-events:none;}
+.uploaddoc{width:100%;max-width:795px;background:#FFF;box-shadow:0px 0px 40px 0px rgba(0,0,0,0.11);margin:0 auto;padding:50px 70px;}
+.docimg{position:absolute;left:0;right:0;margin:auto;width:100%;height:100%;text-align:center;display:flex;align-items:center;align-content:center;justify-content:center;flex-wrap:wrap;}
+.docimg strong{color:#00B0CB;font-family:Montserrat;font-size:20px;font-style:normal;font-weight:600;line-height:111.5%;margin:10px 0 0;display:block;width:100%;}
+.docimg strong span{display:block;color:#000;font-family:Montserrat;font-size:18px;font-style:normal;font-weight:400;line-height:111.5%;}
+.file-set .docimg{display:none;}
+.declarebox{display:block;position:relative;padding-left:35px;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;color:#4F4F4F;font-family:Mulish;font-size:16px;font-style:normal;font-weight:600;line-height:24px;}
+
+/* Hide the browser's default checkbox */
+.declarebox input{position:absolute;opacity:0;cursor:pointer;height:0;width:0;}
+
+/* Create a custom checkbox */
+.declarebox .checkmark{position:absolute;top:0;left:0;height:25px;width:25px;background-color:#eee;}
+
+/* On mouse-over, add a grey background color */
+.declarebox:hover input ~ .checkmark{background-color:#ccc;}
+
+/* When the checkbox is checked, add a blue background */
+.declarebox input:checked ~ .checkmark{background-color:#00b0cb;border-color:#00b0cb;}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.declarebox .checkmark:after{content:"";position:absolute;display:none;}
+
+/* Show the checkmark when checked */
+.declarebox input:checked ~ .checkmark:after{display:block;}
+
+/* Style the checkmark/indicator */
+.declarebox .checkmark:after{left:9px;top:5px;width:5px;height:10px;border:solid white;border-width:0 2px 2px 0;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg);}
+.declarebox .checkmark{border-radius:0;top:-1px;}
+.declare{margin:18px 0 0;}
+.bloglist{padding:60px 0;}
+.bloglist ul{display:flex;align-items:center;align-content:center;flex-wrap:wrap;}
+.bloglist ul li{width:30%;margin:0 1% 20px;background:#F9F9F9;position:relative;}
+.bloglistimg a img{height:200px;object-fit:cover;width:100%;}
+.posttime{position:absolute;right:20px;top:186px;background:#00B0CB;padding:3px 10px;color:#FFF;font-family:Mulish;font-size:14px;font-style:normal;font-weight:700;line-height:normal;text-transform:uppercase;}
+.postby{padding:15px 0 10px 20px;color:#000;font-family:Mulish;font-size:12px;font-style:normal;font-weight:400;line-height:normal;text-transform:uppercase;}
+.postby img{display:inline-block;margin:-3px 5px 0 0;}
+.postTitle{padding:10px 10px 20px 20px;}
+.postTitle a{color:#000;font-family:Montserrat;font-size:18px;font-style:normal;font-weight:500;line-height:normal;text-transform:capitalize;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;}
+.blogdetail{padding:70px 0;}
+.postdetailimg img{width:100%;object-fit:cover;margin:0 0 20px;}
+.blogdetail h1{color:#000;font-family:Montserrat;font-size:18px;font-style:normal;font-weight:500;line-height:normal;text-transform:capitalize;}
+.blogdetail .postby{padding:10px 0 10px;}
+.postdetaildes h2{color:#000;font-family:Mulish;font-size:18px;font-style:normal;font-weight:700;line-height:normal;margin:0 0 10px;}
+.postdetaildes p{color:#4F4F4F;font-family:Mulish;font-size:15px;font-style:normal;font-weight:400;line-height:normal;}
+.postdetaildes{margin:0 0 25px;}
+.postdetaildes ul li{list-style:disc;color:#4F4F4F;font-family:Mulish;font-size:15px;font-style:normal;font-weight:400;line-height:normal;text-transform:capitalize;margin:0 0 10px;padding:0 0 0 0px;}
+.postdetaildes ul{padding:20px 0 0 17px;}
+.recentpost h2{color:#00B0CB;font-family:Montserrat;font-size:22px;font-style:normal;font-weight:600;line-height:normal;text-transform:capitalize;margin:0 0 10px;}
+.recentpost ul li a{color:#4F4F4F;font-family:Mulish;font-size:15px;font-style:normal;font-weight:400;line-height:normal;text-transform:capitalize;}
+.recentpost ul li{margin:0 0 10px;list-style:disc;}
+.recentpost ul{padding:0 0 0 20px;}
+.prepost a{display:inline-block;border-radius:5px;border:2px solid #00B0CB;background:#FFF;padding:8px 18px;color:#00B0CB;text-align:center;font-family:Montserrat;font-size:15px;font-style:normal;font-weight:600;     /* 240% */text-transform:capitalize;}
+.prepost a:hover,.prepost a:focus{background:#00B0CB;color:#fff;}
+
+/*Taxi Insurance*/
+.taxiinsurancesec{background:#F5F5F5;}
+.taxiinsurancesec{position:relative;padding:60px 0 120px;}
+.taxiinsurancesec .healthinsimg{position:absolute;right:0;top:0;bottom:0;margin:auto;vertical-align:middle;height:100%;display:flex;align-items:center;align-content:center;}
+.taxiinsurancesec .twowheelerinsu{padding:0 30px 0 0;}
+.whychoseslidersm{display:none;}
+.healthinsimgsm{display:none;}
+.texiiconsm { display: none; }
+
+
+/*Responsive*/
+@media (max-width:1366px){
+.healthinsimages img{max-width:78%;}
+.abouthealthins{min-height:650px;}
+.nav.formsteps{margin-bottom:20px;}
+
+}
+@media(max-width:1300px){
+
+/*become pos*/
+.posreg .nav.formsteps li:last-child span{left:inherit;right:0;}
+.posreg .nav.formsteps li:first-child span{left:-40px;}
+.healthinsimages img {max-width: 76%;}
+}
+@media (max-width:1199px){
+.logo img{max-width:200px;}
+.navbar-light .navbar-nav .nav-item{margin-right:10px;}
+.findadvbtn{padding:8px 10px;font-size:13px;}
+.becomeposbtn{padding:8px 10px;font-size:13px;}
+.navbar-light .navbar-nav .nav-link{font-size:15px;}
+.welcomecnt h2{font-size:36px;}
+.welcomecnt h3{font-size:45px;}
+.welcomecnt ul li{margin:0 9px 0 0;}
+.welcomecnt ul li a{font-size:16px;}
+.dropdown-toggle::after{right:-7px;}
+.insuranceType ul li{padding:5px 5px 5px 10px;}
+.insutitle{font-size:13px;}
+.insutitle strong{font-size:17px;}
+.insradiobox .checkmark{width:20px;height:20px;right:5px;bottom:15px;}
+.insradiobox .checkmark:after{left:7px;top:3px;}
+.whychooseheading{font-size:25px;line-height:30px}
+.whychoosebox h2{font-size:20px;line-height:23px;}
+.whychoosebox{height:310px;padding:10px;}
+.whychoosebox p{font-size:15px;line-height:23px;}
+.whychoosebox img{max-width:95px;}
+.helthinsbox h3{font-size:16px;line-height:22px;}
+.helthinsbox h5{font-size:25px;}
+.helthinsbox h6{font-size:16px;}
+.insuimg img{max-width:150px;}
+.expcovertitle{padding:0;}
+.expertcoverbox{padding:10px;height:150px;}
+.expertcoverbox h2{font-size:16px;line-height:18px;}
+.expertcoverbox h3{font-size:15px;}
+.expertcoverbox img{max-width:30px;}
+.ourpartnerheading{font-size:25px;line-height:30px}
+.partnerlogos li img{max-width:108px;}
+.testimonialheding{font-size:25px;line-height:28px;}
+.testimonialbox > img{max-width:40px;}
+.testimonialbox h2{font-size:19px;line-height:20px;}
+.footlogo a img{max-width:150px;}
+.ftlocation img{max-width:40px;}
+.ftlocation{padding:0 0 0 50px;}
+.ftlocation h2{font-size:15px;}
+.footlinkbox{padding:0 8px;}
+.insplanresult{width:100%;}
+.footlinkbox h2{font-size:17px;line-height:18px;}
+.footlinkbox ul li a{font-size:15px;line-height:20px;}
+.footlinkbox ul li{margin:0 0 3px;}
+.footmainlinks li{margin:0 2px;}
+.footmainlinks li a{font-size:12px;}
+.footlinkbox{width:33%;margin:0 0 30px;}
+.footlinksec{flex-wrap:wrap;}
+.footlinkbox:nth-child(3){order:3;}
+
+/*health insurance*/
+.insuranceform label.form-label{font-size:19px;}
+.combobox{font-size:15px;margin-bottom:2px;padding-left:27px;}
+.combobox .checkmark{width:19px;height:19px;top:1px;}
+.combobox .checkmark:after{top:3px;left:6px;}
+.insuranceplanstep h2{font-size:24px;line-height:27px;}
+.nav.formsteps li button{width:48px;height:48px;font-size:20px;}
+.genderbox .checkmark:after{top:5px;}
+h2.buyexpheading{font-size:25px;line-height:30px;margin:0 0 30px;}
+.abouthealthins{min-height:600px;}
+.buyexpertcover{padding:40px 0;}
+.buyexpbox h2{font-size:18px;line-height:22px;}
+.buyexpbox p{font-size:15px;}
+.abouthealthins h2{font-size:25px;line-height:30px;}
+.abouthealthins h2 span{font-size:25px;line-height:30px;}
+.abouthealthins ul li{margin:0 0 17px;font-size:15px;line-height:20px;}
+.disclaimersec h2{font-size:25px;line-height:28px;}
+.healthinsimages img{max-width:63%;}
+.justfewdetail h3{font-size:24px;line-height:30px;}
+.justfewdetail h4{font-size:20px;}
+label.illnessbox strong{font-size:20px;}
+.inscmplistbox{padding:20px 14px 20px;}
+
+/*twowheeler insurance*/
+.twowheelerinsu h2{font-size:25px;line-height:30px;}
+.twowheelerinsu h2 span { font-size: 25px; line-height: 30px; }
+/*Insurace plan*/
+button.planpricebtn{width:130px;border-radius:4px;font-size:17px;padding:11px 10px;}
+.idv{font-size:15px;}
+.idv span{font-size:18px;}
+.vehicledetailtop h2{font-size:13px;line-height:17px;}
+.vehicledetailtop{padding:4px 10px;}
+.yourvehicledetail{border-radius:6px;}
+.vehiclenames{padding:0 0 0 10px;}
+.vehiclenameoptions span{font-size:15px;}
+.vehicleyearopt{padding:0 10px 10px;}
+.vehyear span{font-size:15px;}
+.insurelowprice{padding:0 10px 10px;}
+.noclaimbonus{border-radius:6px;}
+.claimlist{padding:0 10px 10px;}
+.planduration select{font-size:12px;border-radius:6px;}
+
+/*about*/
+.findinscnt{padding:0 10px 0 0;width:55%;}
+.aboutimg{width:45%;}
+.ourmanegement h2{font-size:22px;}
+.solutionsec h2{font-size:18px;}
+.getcover p{font-size:21px;}
+.getworldbtn button{padding:8px 19px;font-size:16px;}
+.findinscnt h2{font-size:25px;}
+
+/*become pos*/
+.posreg .nav.formsteps li:last-child span{left:inherit;right:0;}
+.posreg .nav.formsteps li span{font-size:15px;}
+.posreg .nav.formsteps li:first-child span{left:-40px;}
+.posreg .nav.formsteps li span{width:90px;display:block;min-width:90px;text-align:center;left:-20px;}
+.posreg .nav.formsteps li:first-child span{left:-20px;}
+.addressbox p { padding-right: 20px; }
+}
+@media (max-width:991px){
+.navbar-light .navbar-toggler{background:url(../img/toggleicon.png)0 0 no-repeat;width:41px;height:41px;box-shadow:none;border:none;}
+.navbar-light .navbar-toggler span{display:none;}
+.navbar-light .navbar-toggler:hover,.navbar-light .navbar-toggler:focus{box-shadow:none;outline:none;}
+.navbar-collapse{position:absolute;right:0;top:50px;background:#fff;box-shadow:0 0 20px 0 rgba(0,0,0,0.1);padding:0 10px 10px 10px;    z-index: 9;}
+.navbar-light .navbar-nav .nav-item{margin:0;border-bottom:1px solid #f2f2f2;}
+.navbar-light .navbar-nav .nav-item:last-child{border-bottom:none;}
+.navbar-light .navbar-nav .nav-link{padding:12px 26px 12px 16px;}
+.dropdown-toggle::after{right:10px;top:19px;}
+.loginbuttons{margin:0;}
+.navbar-expand-lg .navbar-nav .dropdown-menu{box-shadow:none;padding-left:10px;padding:0;margin:0;}
+.welcomesec{min-height:400px;}
+.welcomecnt h2{font-size:29px;}
+.welcomecnt h3{font-size:41px;}
+.welcomecnt ul{flex-wrap:wrap;}
+.welcomecnt ul li{margin:0 14px 8px  0;}
+label.insradiobox img{max-width:50px;height:30px;object-fit:contain;}
+.insuranceType ul li{padding:5px;text-align:center;height:100px;}
+.insutitle{text-align:center;margin:5px 0 10px;}
+.insradiobox .checkmark{left:0;right:0;bottom:-8px;margin:auto;}
+.whychoosebox img{max-width:75px;margin:auto;}
+.whychose .container{flex-wrap:wrap;}
+.whychoosebox{width:48%;padding:15px;height:280px;justify-content:center;text-align:center;}
+.whychoosebox h2{text-align:center;}
+.whychoosebox p{text-align:center;}
+.whychose{padding:40px 0 10px;}
+.expertcoverheading{font-size:25px;line-height:30px;}
+.expercoverlist{flex-wrap:wrap;justify-content:center;text-align:center;}
+.expertcoverbox{width:48%;margin:0 1% 10px;}
+.footlocation{flex-wrap:wrap;}
+.ftlocation{width:32%;}
+.footlogo{width:100%;text-align:center;margin:0 0 20px;}
+.footmainlinks{flex-wrap:wrap;justify-content:center;margin-top:2px;}
+.footmainlinks li{margin:0 12px;display:block;line-height:14px;}
+.footmainlinks li a{font-size:13px;line-height:26px;}
+
+/*health insurance*/
+.healthinsurance{flex-wrap:wrap;justify-content:center;}
+.healthinsimg{width:100%;margin:0 0 20px;text-align:center;}
+.insuranceplanstep{width:100%;padding:0 0 0;}
+.insuranceplanstep h2{text-align:center;font-size:23px;line-height:26px;}
+.insuranceplanstep h2 span{line-height:26px;font-size:23px;display:block;}
+.nav.formsteps{text-align:center;justify-content:center;}
+.nav.formsteps li:last-child{width:auto;}
+.nav.formsteps li{display:inline-block;}
+.insuranceform label.form-label{text-align:center;}
+.insuranceform{margin:30px 0 0;}
+.healthinsimg img{max-width:400px;}
+.buyexpertcover{padding:30px 0;}
+h2.buyexpheading{font-size:20px;line-height:25px;margin:0 0 20px;}
+h2.buyexpheading span{font-size:20px;line-height:25px;}
+.abouthealthins h2{font-size:23px;line-height:25px;text-align:center;margin:0 0 40px;}
+.abouthealthins h2 span{font-size:20px;line-height:25px;}
+.healthinsimages{display:flex;align-items:center;align-content:center;}
+.healthinsimages img{max-width:310px;}
+.abouthealthins{min-height:inherit;}
+.abouthealthins ul{padding-right:220px;}
+.abouthealthins.boxrevers ul{padding:0 0 0 240px;}
+.boxrevers .healthinsimages{top:90px;}
+.buyexpbox h2{font-size:15px;line-height:17px;}
+.buyexpbox p{font-size:14px;line-height:22px;}
+.abouthealthins ul li{font-size:14px;}
+.disclaimersec h2{font-size:23px;line-height:24px;}
+.disclaimersec p{font-size:15px;line-height:23px;}
+.insurancecombo li{width:32%;}
+.justfewdetail h3{font-size:22px;line-height:26px;text-align:center;}
+.inscmpysec .row{flex-direction:column-reverse;}
+.addbanner{text-align:center;}
+
+/*twowheeler insurance*/
+.twowheelerinsu{width:100%;padding:15px 0 0;}
+.twowheelerinsuSec .healthinsimg{width:100%;}
+.twowheelerinsuSec .twowheelerinsu{width:100%;}
+.planduration{margin-bottom:50px;}
+
+/*about*/
+.findinsurance .container{flex-wrap:wrap;}
+.findinscnt{width:100%;margin:0 0 20px;text-align:center;}
+.ourmanegement{padding:15px;}
+.aboutimg{width:100%;text-align:center;}
+.ourmanegement h2{font-size:17px;line-height:21px;margin:10px 0 5px;}
+h2.howdoheading{font-size:25px;}
+.visioncnt{text-align:center;margin:20px 0 0;}
+.visioncnt h2{font-size:25px;}
+.solutionsec .container{flex-wrap:wrap;justify-content:center;}
+.getcover{width:100%;text-align:center;margin:15px 0 0;}
+.solutionsec h2{text-align:center;}
+
+/*contact*/
+.contactsec{padding:30px 0;}
+.gettouchform{margin:20px 0 0;}
+.posformbox{padding:40px 30px;}
+.file-wrapper{width:176px;height:176px;}
+.docimg strong{font-size:16px;}
+.docimg strong span{font-size:15px;}
+
+/*blog*/
+.postTitle a{font-size:14px;}
+.postby{padding:10px 0 0 10px;}
+.postTitle{padding:10px 10px 10px 10px;}
+.posttime{font-size:12px;right:10px;}
+.bloglist{padding:30px 0;}
+/*blog detail*/
+.blogdetail {
+    padding: 40px 0;
+}
+/*taxi*/
+.taxiinsurancesec .texiimgbig {
+    display: none;
+}
+.taxiinsurancesec {
+    padding: 10px 0 50px;
+}
+.texiiconsm {
+    width: 100%;
+    text-align: center;
+    margin: 0 0 30px;
+        display: block;
+}
+.abtTexiInsurance .healthinsimages img {
+    max-width: 300px;
+}
+
+}
+@media (max-width:800px){
+.healthinsimages img{max-width:260px;}
+}
+@media (max-width:767px){
+.welcomecnt{text-align:center;margin:40px 0 30px;}
+.welcomesec .col-md-12{flex-wrap:wrap;justify-content:center;}
+.welcomecnt h2{font-size:23px;line-height:27px;}
+.welcomecnt h3{font-size:31px;line-height:35px;}
+.welcomecnt ul li{margin:0 10px;}
+.insuranceType{margin:-30px 0 0;}
+.insuranceType ul{padding:9px;}
+.insutitle strong{font-size:13px;}
+.insutitle{text-align:center;margin:3px 0 5px;font-size:12px;}
+.whychooseheading{margin:0 0 10px;font-size:22px;line-height:25px;}
+.insuranceslider{margin-top:10px;}
+.helthinsbox{height:300px;}
+.helthinsbox.mt-5{margin:0!important;}
+.expertcoverheading{font-size:22px;line-height:25px;}
+.expcovertitle{font-size:15px;line-height:22px;}
+.insuranceslider{padding-bottom:0px;max-width:540px;margin:auto;}
+.partnerlogos {
+    flex-wrap: wrap; justify-content: center;}
+.partnerlogos li{width:48%;}
+.testimonialbox p{height:160px;}
+.testimonialbox{height:270px;box-shadow:none;text-align:center;padding:0 5px;}
+.testimonialbox > img{margin:auto;}
+.customersec{padding:30px 0;}
+.footsocialcard li img{max-width:81%;}
+.footsocialicon li a{width:36px;height:36px;border-width:1px;}
+.footsocialicon li a img{max-width:14px;max-height:14px;object-fit:contain;}
+.footsocialicon li{margin:0 5px 0 0;}
+.ftlocation{width:100%;margin:0;border-bottom:1px solid #3d3d3d;padding-bottom:13px;padding-top:13px;}
+.ftlocation img{top:13px;}
+.ftlocation{border-bottom:none;}
+.footlinksec{margin-top:10px;}
+.footmainlinks{margin-top:4px;}
+
+/*healthinsurance*/
+.insuranceplanstep h2{font-size:23px;line-height:25px;}
+.insuranceplanstep h2 span{display:inline-block;font-size:23px;line-height:25px;}
+.buyexpbox{text-align:center;height:auto;margin:0;box-shadow:0px 0px 40px 0px rgba(0,0,0,0.11);padding:40px 13px;}
+.abouthealthins{margin-top:0;margin-bottom:0;}
+.abouthealthins h2{margin:0 0 20px;text-align:left;}
+.healthinsimages{display:none;}
+.abouthealthins ul{padding-right:0;}
+.abouthealthins.boxrevers ul{padding:0;}
+.healthinsimgsm{text-align:center;}
+.disclaimersec{margin:20px 0 40px;}
+.disclaimersec h2{font-size:20px;line-height:21px;}
+.healthinsimgsm{display:block;}
+.healthinsuranceSec{padding:20px 0 30px;}
+.abouthealthins .col-md-7{padding-right:12px;}
+.abouthealthins.boxrevers .col-md-7{padding-left:15px;padding-right:15px;}
+.allfilter a{font-size:14px;min-width:160px;padding:3px 10px;line-height:40px;border-radius:6px;}
+.insplanresult h3{font-size:21px;}
+.insplanresult h2{font-size:14px;}
+.insplanresult h4{font-size:15px;}
+.clientstorybox{display:none;}
+.addbanner{display:none;}
+.inscmplistbox{flex-wrap:wrap;justify-content:center;}
+.cmpylogo{width:100%;text-align:center;margin:0 0 10px;}
+.cmpyfacility{width:100%;padding:0;}
+
+/*twowheeler insurance*/
+.twowheelerinsu h2{font-size:23px;line-height:28px;}
+.twowheelerinsu h2 span{font-size:23px;line-height:28px;}
+.twowheelerinsusec .nav.formsteps li button{width:37px;height:37px;padding:0;font-size:17px;}
+.twowheelerinsu .nav.tabsmenu {  margin: 0 0 20px; }
+.twowheelerinsu .nav.tabsmenu li { width: 48%; margin: 0; }
+.nav.formsteps li:before{top:18px;}
+.insuranceplansec{padding:30px 0;}
+.vehicledetailtop{padding:10px 15px;}
+.vehicledetailtop h2{font-size:16px;line-height:17px;}
+.vehiclenameoptions span{font-size:16px;}
+.vehiclenames{padding:0 0 0 15px;}
+.vehicleyearopt{padding:0 16px 15px;}
+.insurelowprice{padding:0 15px 15px;}
+.claimlist{padding:0 15px 13px;}
+.bikecoverplanform ul li{width:100%;margin:0 0 24px;}
+.bikecoverplanform ul li.coverbutton{width:100%;flex-wrap:wrap;}
+.bikecoverplanform ul li.coverbutton button{width:100%;margin:0 0 15px;}
+.comprehplanlist{flex-wrap:wrap;justify-content:center;}
+.cmpylogoicon{width:100%;margin:0 0 15px;text-align:center;}
+button.planpricebtn{width:100%;max-width:160px;margin:15px 0 0;}
+.carinsurancesec .healthinsimg{display:block;}
+.carinsurancesec .nav.tabsmenu li{width:48%;margin:0;}
+.carinsurancesec .healthinsimg img{max-width:300px;}
+.carinsurancesec .nav.tabsmenu{margin:0 0 20px;}
+
+/*about*/
+.findinsurance .container{flex-direction:column-reverse;text-align:left;}
+.findinscnt{text-align:left;padding:15px 0 0;}
+.findinscnt h2{font-size:22px;}
+.howdowe{padding:30px 0;}
+h2.howdoheading{text-align:left;font-size:22px;}
+p.wedotitle{text-align:left;}
+.visioncnt{text-align:left;}
+.visioncnt h2{font-size:22px;margin:0 0 4px;}
+.solutionsec{display:none;}
+
+/*contact*/
+.contactinfo{padding:0;}
+.contactcnt h2{font-size:22px;}
+.addressbox h3{font-size:20px;}
+.addressbox h4{font-size:17px;}
+.gettouchform h2{font-size:22px;}
+.addressbox{width:80%;}
+.addressbox h4 a{word-wrap:break-word;white-space:normal;}
+.addressbox p{padding-right:0}
+.gettouchform ul li:last-child{margin:0;}
+
+/*become pos*/
+.posreg .nav.formsteps li span{display:none;}
+.posreg .nav.formsteps li{width:27%;}
+.posheading{margin:0 0 20px;font-size:22px;}
+.becomepos{padding:20px 0;}
+.posreg .nav.formsteps li button{width:40px;height:40px;font-size:20px;padding:0;}
+.posreg .nav.formsteps{margin-bottom:40px;}
+.posformbox{padding:0;box-shadow:none;}
+.posreg .text-center.mt-5{margin-top:10px!important;}
+.otpmodal .modal-content{padding:15px;}
+.otpmodal .modal-content h2{font-size:23px;}
+.otpmodal .modal-content h3{font-size:16px;}
+.otpmodal .modal-content h4{font-size:16px;}
+.otpmodal .modal-content input.form-control{max-width:100%;margin:0 0 10px;}
+.otpmodal button.btn.btn-primary{width:100%;margin:0 0}
+button.btn-close{top:0;right:0;}
+.breadcrumb h2{font-size:23px;}
+.uploaddoc{padding:0;box-shadow:none;}
+.uploaddoc ul li{width:48%;margin:0 1% 10px;}
+.file-wrapper{width:100%;margin:0 0;}
+.posreg #step2 button.btn.btn-primary,.posreg #step3 button.btn.btn-primary{display:inline-block;width:46%;min-width:inherit;font-size:15px;margin:0;}
+
+/*blog*/
+.bloglist{padding:10px 0 30px;}
+.bloglist ul li{width:48%;}
+/*blog detail*/
+.blogdetail {
+    padding: 10px 0 30px;
+}
+.recentpost {
+    margin: 30px 0 0;
+}
+.recentpost h2 { margin: 0 0 5px; font-size: 18px; }
+.recentpost ul li { margin: 0 0 5px}
+.taxiinsurancesec {background: #F1FDFF;}
+.taxiinsurancesec .twowheelerinsu {
+    padding: 0;
+}
+.taxiinsurancesec .nav.tabsmenu li { width: 48%;     margin: 0;}
+.taxiinsurancesec .nav.tabsmenu { margin: 0 0 20px; }
+.taxiinsurancesec .twoinsuranceform input { font-size: 15px; margin: 0; }
+}
+@media (max-width:575px){
+.welcomesec{padding:20px 0 0;background:linear-gradient(180deg,#ffffff 0%,#D8FAFF 100%);margin-top:-80px;}
+header{padding:15px 0;}
+.logo img{max-width:150px;}
+.course-panel{background-color:transparent;max-height:0;overflow:hidden;transition:max-height .2s ease-out}
+.course-accordion{position:relative;}
+.course-accordion:before{content:'+';position:absolute;right:0;top:0;}
+.course-accordion.active:before{content:'-';}
+.insuranceTypebox{background:#FFF;box-shadow:0px 0px 40px 0px rgba(0,0,0,0.11);padding:20px 20px;border-radius:10px;position:relative;z-index:1;margin-top:-60px;}
+.welcomecnt{display:none;}
+.insradiobox{padding-top:13px;}
+.insuranceType ul{flex-wrap:wrap;padding:0;border-radius:16px;box-shadow:none;}
+.insuranceType ul li{width:50%;border-bottom:1px solid #ccc;height:150px;}
+.insuranceType ul li:nth-child(2n){border-right:none;}
+label.insradiobox img{max-width:60px;height:60px;}
+.insutitle{text-align:left;font-size:11px;margin:19px 0 0;padding:0 0 0 6px;}
+.insutitle strong{font-size:18px;}
+.insradiobox .checkmark{left:inherit;right:6px;bottom:13px;margin:0;width:27px;height:27px;}
+.insheadingsm{color:#000;text-align:center;font-family:Montserrat;font-size:23px;font-style:normal;font-weight:400;line-height:111.5%; /* 25.645px */text-align:center;margin:0 0 15px;display:block;}
+.insheadingsm strong{color:#00B0CB;font-family:Montserrat;font-size:23px;font-style:normal;font-weight:700;line-height:111.5%;}
+.insradiobox .checkmark:after{left:10px;top:6px;}
+.whychoosebox{width:100%;height:230px;}
+.whychoosebox:hover{box-shadow:none;}
+.whychoseslidersm{display:block;}
+.whychose .container{display:none;}
+.whychoosebox img{max-width:95px;}
+.whychoosebox h2{margin:13px 0 5px;}
+.whychoseslidersm .slick-dots li{margin:0 4px;width:auto;}
+.whychoseslidersm .slick-dots li button{width:14px;height:14px;background:#D9D9D9;border-radius:60px;}
+.whychoseslidersm .slick-dots li button:before{display:none!important;}
+.whychoseslidersm .slick-dots li.slick-active button{background:#0df;}
+.insuranceslider .slick-dots li{margin:0 2px;}
+.insuranceslider .slick-dots li button{border:none;border-radius:60px;background:#D9D9D9;width:14px;height:14px;}
+.insuranceslider .slick-dots li.slick-active button:before{display:none;}
+.insuranceslider .slick-dots li.slick-active button{background:#0df;}
+.testimonial .slick-slide{padding:10px 0px;}
+.testimonial .slick-dots li{margin:0 2px;}
+.testimonial .slick-dots li button{border:none;border-radius:60px;background:#D9D9D9;width:14px;height:14px;}
+.testimonial .slick-dots li.slick-active button:before{display:none;}
+.testimonial .slick-dots li.slick-active button{background:#0df;}
+.expertcover{padding:50px 0;}
+.partnerlogo .slick-slide{background:#fff;padding:15px;box-shadow:0 0 10px 0 rgba(0,0,0,0.1);height:100px;display:flex;align-items:center;align-content:center;justify-content:center;}
+.partnerlogo .slick-slide img{max-height:90px;object-fit:contain;}
+.insuranceType ul li:nth-child(5),.insuranceType ul li:nth-child(6){border-bottom:none;}
+.expertcoverbox{width:100%;text-align:left;display:flex;align-items:center;align-content:center;justify-content:flex-start;height:auto;position:relative;padding:25px 20px 25px 28px;}
+.expertcoverbox img{max-width:50px;}
+.expertcnt{padding:0 0 0 20px;}
+.expertcoverbox h3{width:100%;}
+.expertcoverbox h2{width:100%;margin:0 0 0 0;}
+.partnerlogo .slick-dots{bottom:-50px;}
+.partnerlogos{display:none;flex-wrap:wrap;justify-content:center;}
+.partnerlogo{display:block;}
+.partnerlogo .slick-slide img{width:auto;margin:auto;}
+.partnerlogo .slick-dots li{margin:0 4px;width:auto;}
+.partnerlogo .slick-dots li button{width:14px;height:14px;background:#D9D9D9;border-radius:60px;}
+.partnerlogo .slick-dots li button:before{display:none!important;}
+.partnerlogo .slick-dots li.slick-active button{background:#0df;}
+.testimonialheding{font-size:23px;line-height:25px;margin:0 0 7px;}
+.footblack{padding:0;}
+.footlogo{display:none;}
+.ftlocation{display:none;}
+.footlinkbox h2{margin:0;}
+.footlinkbox{width:100%;margin:0;border-bottom:1px solid #323232;padding:14px 10px;}
+.footlinksec{margin:0;border:none;padding:0;}
+.footlinkbox h2{margin:0;}
+ul.footmainlinks{border-top:0;margin:0 0 10px;border-bottom:1px solid #323232;}
+.footmainlinks li{margin:0 5px;}
+.footmainlinks li a{font-size:12px;line-height:19px;}
+.footsocialsec{justify-content:center;flex-wrap:wrap;padding:10px 0;flex-direction:column-reverse;}
+.footsocialicon{margin:0 0 10px;}
+.footsocialcard{text-align:center;}
+.footsocialcard li img{max-width:100%;}
+.footsocialcard li{margin:0 0 10px;}
+.footwh{background:#000;border-top:1px solid #323232;}
+.copyright{color:#fff;font-size:11px;line-height:17px;}
+.footlinkbox ul li:before{content:'';background:#00B0CB;position:absolute;left:0;top:11px;width:5px;height:5px;border-radius:20px;}
+.footlinkbox ul li{position:relative;padding:0 0 0 15px;}
+.footlinkbox ul{padding:20px 0 0;}
+.healthinsimg{display:none;}
+.healthinsuranceSec{background:linear-gradient(180deg,#ffffff 0%,#D8FAFF 100%);padding-bottom:30px;}
+.insuranceplanstep h2{font-weight:500;font-size:21px;line-height:29px;}
+.insurancecombo li{width:100%;margin:0 0 23px;}
+.combobox .checkmark{width:35px;height:35px;top:-5px;}
+.combobox{font-size:18px;margin-bottom:2px;padding-left:47px;}
+.insuranceform label.form-label{font-size:20px;text-align:left;line-height:28px;}
+.combobox .checkmark:after{top:7px;left:12px;width:8px;height:14px;}
+button.btn.btn-primary{width:100%;}
+h2.buyexpheading{font-size:24px;line-height:35px;margin:0 0 31px;}
+h2.buyexpheading span{font-size:24px;line-height:35px;}
+.buyexpbox h2{font-size:24px;line-height:27px;margin:20px 0 15px;}
+.buyexpbox p{font-size:20px;line-height:24px;}
+.abouthealthins h2{font-size:24px;}
+.abouthealthins h2 span{font-size:24px;line-height:25px;}
+.abouthealthins ul li{font-size:20px;line-height:28px;}
+.disclaimersec h2{font-size:24px;line-height:30px;}
+.disclaimersec p{font-size:20px;line-height:28px;}
+.form-control{padding:12px 18px;border-radius:5px;}
+.genderselect label{border-radius:5px;}
+.genderbox{line-height:40px;}
+.genderbox .checkmark{top:12px;}
+.insuranceplanstep .justfewdetail h2{text-align:left;font-size:25px;}
+.insuranceplanstep .justfewdetail h3{font-size:20px;text-align:left;margin:0 0 15px;}
+label.illnessbox strong{font-weight:600;}
+.justfewdetail h4{margin:0 0 14px;}
+.filter .container{flex-wrap:wrap;}
+.allfilter{margin:5px 0 0;}
+.inscmpysec{padding:20px 0;}
+.cmpyfacility{text-align:center;margin:8px 0;}
+.cmpyfacility h2{margin:0 0 8px;}
+.cmpyfacility p{font-size:19px;line-height:27px;}
+.covertype{flex-wrap:wrap;}
+.coveramt{width:48%;}
+.ComparePolicy{width:100%;margin:10px 0 0;border:none;}
+.welove{padding:16px;flex-wrap:wrap;}
+.welovebox{width:100%;margin:0 0 10px;}
+.welovebox p{line-height:15px;}
+.inspricebox{width:100%;}
+.inspricebox h3{font-size:18px;margin:8px 0 0;}
+.twowheelerinsusec .healthinsimg{display:block;text-align:center;}
+.twowheelerinsusec .healthinsimg img{max-width:300px;margin:auto;}
+.twowheelerinsusec .nav.tabsmenu li button{font-size:22px;}
+.twowheelerinsusec .twowheelerinsu h2{font-size:20px;}
+.allcitybike ul li{width:48%;}
+.nav.tabsmenu{margin:0;}
+.nav.tabsmenu li{width:100%;margin:0 0 10px;}
+button.btn.btn-primary{margin:15px 0 0;}
+.twowheelerinsusec .nav.tabsmenu li button{font-size:18px;line-height:21px;}
+.popularmanufac ul li{width:48%;}
+.moremenufa{text-align:center;}
+.popularmodal .existingIllness li{width:48%;}
+.popularmodal .existingIllness li{width:100%;}
+.popularmodal.regyear .existingIllness li{width:31%;}
+.vehicledetailbox .healthinsimg{display:block;}
+.vehicledetailbox .healthinsimg img{max-width:300px;}
+.vehicledetailform li.halfbox{flex-wrap:wrap;}
+.vehicledetailform li.halfbox div{width:100%;margin:0 0 20px;}
+.vehicledetailform li.halfbox div:last-child{margin:0;}
+
+/*blog*/
+.bloglist ul li{width:100%;margin:0 0 20px;}
+}
+@media (max-width:480px){
+}
+@media (max-width:360px){
+}
